@@ -14,6 +14,12 @@ effect, you must specify `-s` on the command line. For usage info, use `cmatrix 
 ### Dependencies
 You'll probably need a decent ncurses library to get this to work.
 
+On _Fedora Linux_, for example:
+
+```
+sudo dnf install autoconf automake gcc gcc-c++ git libtool make nasm pkgconfig ncurses ncurses-devel
+```
+
 ### Building and installing cmatrix
 To install cmatrix, use either of the following methods from within the cmatrix directory.
 
@@ -22,7 +28,7 @@ To install cmatrix, use either of the following methods from within the cmatrix 
 autoreconf -i  # skip if using released tarball
 ./configure
 make
-make install
+sudo make install
 ```
 
 #### Using CMake
@@ -35,7 +41,7 @@ cmake ..
 # or to install to "/usr"
 #cmake -DCMAKE_INSTALL_PREFIX=/usr ..
 make
-make install
+sudo make install
 ```
 
 ### Running cmatrix
@@ -43,6 +49,8 @@ After you have installed cmatrix just run `cmatrix` to run cmatrix :)
 
 _To get the program to look most like the movie, use `cmatrix -lba`_
 _To get the program to look most like the Win/Mac screensaver, use `cmatrix -ol`_
+
+In the _launcher_ directory there are some scripts as examples, that you can consider to use to launch `cmatrix` by opening a _terminal_.
 
 ### Valuable information
 If you have any suggestions/flames/patches to send, please feel free to
