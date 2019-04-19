@@ -50,7 +50,7 @@ After you have installed cmatrix just run `cmatrix` to run cmatrix :)
 _To get the program to look most like the movie, use `cmatrix -lba`_
 _To get the program to look most like the Win/Mac screensaver, use `cmatrix -ol`_
 
-In the _launcher_ directory there are some scripts as examples, that you can consider to use to launch `cmatrix` by opening a _terminal_.
+In the _launcher_ directory there are some scripts as examples, that you can consider to use as custom command by opening a _terminal_.
 
 ### Valuable information
 If you have any suggestions/flames/patches to send, please feel free to
